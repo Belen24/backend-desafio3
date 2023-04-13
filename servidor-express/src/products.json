@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Pulsera",
+    "description": "pulsera de plata 925",
+    "price": 9500,
+    "thumbnail": "https://cdnx.jumpseller.com/crislu-cl/image/24204352/69__1_copia.jpg?1665159261",
+    "code": "abc526",
+    "stock": 8,
+    "id": 1
+  },
+  {
+    "title": "Aros luna",
+    "description": "aros de plata 925",
+    "price": 8500,
+    "thumbnail": "https://cdn.shopify.com/s/files/1/0276/8155/4565/products/FAW181.jpg?v=1675110296",
+    "code": "def159",
+    "stock": 20,
+    "id": 2
+  },
+  {
+    "title": "Anillo",
+    "description": "anillo de plata 925",
+    "price": 10500,
+    "thumbnail": "https://distribuidoradejoyas.cl/5563-thickbox_default/anillo-de-plata-925-grueso-diseno-bali.jpg",
+    "code": "ghi789",
+    "stock": 7,
+    "id": 3
+  },
+  {
+    "title": "Anillo circón solitario",
+    "description": "anillo de plata 925 con circones",
+    "price": 12500,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_681073-MLC46693520332_072021-O.jpg",
+    "code": "jkm652",
+    "stock": 10,
+    "id": 4
+  },
+  {
+    "title": "Collar Flor",
+    "description": "collar de plata 925",
+    "price": 7500,
+    "thumbnail": "https://distribuidoradejoyas.cl/9441-thickbox_default/collar-de-plata-925-flor-circon-negro-colgante.jpg",
+    "code": "pqr369",
+    "stock": 11,
+    "id": 5
+  },
+  {
+    "title": "Collar Estrella",
+    "description": "collar de plata 925",
+    "price": 7000,
+    "thumbnail": "https://cdn.shopify.com/s/files/1/0280/1768/8611/products/image_eb7ec25c-057c-4aae-9e3a-32acc9a5a441_1400x.jpg?v=1624289316",
+    "code": "stu429",
+    "stock": 5,
+    "id": 6
+  },
+  {
+    "title": "Aros estrella polar",
+    "description": "aros de plata 925",
+    "price": 8000,
+    "thumbnail": "https://diferenti.com/484-large_default/aros-plata-silver-star.jpg",
+    "code": "jdo823",
+    "stock": 8,
+    "id": 7
+  }
+]
