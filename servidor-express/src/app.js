@@ -26,9 +26,14 @@ app.get ("/products",async (req,res) => {
 
 //METODO PARA BUSCAR Y VISUALIZAR PRODUCTO POR MEDIO DE SU ID
 app.get ("/products/:pid",async (req,res) => {
-    const pId =parseInt(req.params.pid);
-    const products = await manager.getProductById(pId);
-    res.send(products);
+    try{
+        const pId =parseInt(req.params.pid);
+        const products = await manager.getProductById(pId);
+        res.send(products);
+    } catch (error) {
+        res.send (`El producto con el id ingresado no existe`);
+    }
+    
 });
 
 app.listen(port, ()=>console.log(`Server listening on port ${port}`));

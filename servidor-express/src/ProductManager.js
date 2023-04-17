@@ -22,7 +22,7 @@ export class ProductManager{
         return newId;
     }
 
-    async CodeDuplicate(code) {
+    async codeDuplicate(code) {
         let content = await fs.promises.readFile(this.path, "utf-8");
         let products = JSON.parse(content);
         for (let i = 0; i < products.length; i++) {
@@ -42,7 +42,7 @@ export class ProductManager{
                 }
     
                //Formula para evitar que un codigo se repita
-                if (await this.CodeDuplicate(product.code)) {
+                if (await this.codeDuplicate(product.code)) {
                 throw new Error("Codigo ingresado ya se encuentra registrado");
                 }
 
